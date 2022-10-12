@@ -1,0 +1,10 @@
+setlocale(LC_ALL, "");
+
+int cell = 10;
+
+cell += 5;
+
+int*pointerToCell = 0x1234c;
+
+cout << "Адреса комірки пам'яті:\t" <<&cell << endl;
+cout <<"Значення, що зберігається в пам'ятi:\t" << cell << endl;
